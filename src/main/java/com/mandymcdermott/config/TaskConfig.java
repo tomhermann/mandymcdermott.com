@@ -1,4 +1,4 @@
-package com.zombietank.config;
+package com.mandymcdermott.config;
 
 import java.util.concurrent.Executor;
 

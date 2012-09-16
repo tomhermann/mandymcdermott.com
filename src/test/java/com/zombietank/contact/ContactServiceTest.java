@@ -9,6 +9,10 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
+import com.mandymcdermott.contact.ContactMessage;
+import com.mandymcdermott.contact.ContactMessageRepository;
+import com.mandymcdermott.contact.ContactMessageToEmail;
+import com.mandymcdermott.contact.ContactService;
 import com.zombietank.email.Email;
 import com.zombietank.email.EmailService;
 

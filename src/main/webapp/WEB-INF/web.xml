@@ -13,7 +13,7 @@
 		that makeup this application -->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>com.zombietank.config</param-value>
+		<param-value>com.mandymcdermott.config</param-value>
 	</context-param>
 
 	<!-- Specifies the default mode of this application, to be activated if 

@@ -1,4 +1,4 @@
-package com.zombietank.config;
+package com.mandymcdermott.config;
 
 import javax.inject.Inject;
 import javax.naming.NamingException;
@@ -23,8 +23,8 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-import com.zombietank.config.annotation.Dev;
-import com.zombietank.config.annotation.Prod;
+import com.mandymcdermott.config.annotation.Dev;
+import com.mandymcdermott.config.annotation.Prod;
 
 @Configuration
 @EnableTransactionManagement(mode = AdviceMode.ASPECTJ)
@@ -46,7 +46,7 @@ public class DataConfig {
 		LocalContainerEntityManagerFactoryBean factory = new LocalContainerEntityManagerFactoryBean();
 		factory.setDataSource(dataSource);
 		factory.setJpaVendorAdapter(jpaVendorAdapter());
-		factory.setPackagesToScan("com.zombietank");
+		factory.setPackagesToScan("com.mandymcdermott");
 		factory.setPersistenceUnitName("spring-jpa");
 		return factory;
 	}

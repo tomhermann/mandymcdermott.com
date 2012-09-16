@@ -18,6 +18,7 @@ import org.mockito.runners.MockitoJUnitRunner;
 import com.google.common.base.Charsets;
 import com.google.common.io.CharStreams;
 import com.google.common.io.InputSupplier;
+import com.mandymcdermott.io.InputSuppliers;
 
 @RunWith(MockitoJUnitRunner.class)
 public class InputSuppliersTest {

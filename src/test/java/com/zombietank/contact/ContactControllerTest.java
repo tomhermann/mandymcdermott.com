@@ -11,9 +11,9 @@ import org.mockito.runners.MockitoJUnitRunner;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.zombietank.contact.ContactController;
-import com.zombietank.contact.ContactMessage;
-import com.zombietank.contact.ContactService;
+import com.mandymcdermott.contact.ContactController;
+import com.mandymcdermott.contact.ContactMessage;
+import com.mandymcdermott.contact.ContactService;
 
 @RunWith(MockitoJUnitRunner.class)
 public class ContactControllerTest {

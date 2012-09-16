@@ -1,4 +1,4 @@
-package com.zombietank.config;
+package com.mandymcdermott.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScan.Filter;
@@ -6,12 +6,12 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
 import org.springframework.context.annotation.PropertySource;
 
-import com.zombietank.config.annotation.Dev;
-import com.zombietank.config.annotation.Prod;
+import com.mandymcdermott.config.annotation.Dev;
+import com.mandymcdermott.config.annotation.Prod;
 
 @Configuration
 @ImportResource("WEB-INF/spring/*-context.xml")
-@ComponentScan(basePackages = "com.zombietank", excludeFilters = { @Filter(Configuration.class) })
+@ComponentScan(basePackages = "com.mandymcdermott", excludeFilters = { @Filter(Configuration.class) })
 public class ApplicationConfig {
 
 	/** Properties to support the 'embedded' mode of operation. */
