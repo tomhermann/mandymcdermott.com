@@ -1,4 +1,4 @@
-package com.zombietank.contact;
+package com.mandymcdermott.contact;
 
 import java.io.Serializable;
 

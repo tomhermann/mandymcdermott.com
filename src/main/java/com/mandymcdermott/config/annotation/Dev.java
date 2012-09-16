@@ -1,4 +1,4 @@
-package com.zombietank.config.annotation;
+package com.mandymcdermott.config.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

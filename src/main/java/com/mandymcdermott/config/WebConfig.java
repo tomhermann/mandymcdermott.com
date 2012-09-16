@@ -1,4 +1,4 @@
-package com.zombietank.config;
+package com.mandymcdermott.config;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

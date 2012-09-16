@@ -1,4 +1,4 @@
-package com.zombietank.io;
+package com.mandymcdermott.io;
 
 import java.io.IOException;
 import java.io.InputStream;
